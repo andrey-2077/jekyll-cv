@@ -15,7 +15,7 @@ contact:
 languages:
   - idiom: Russian — Native
   - idiom: English — B2
-  - idiom: Spanish — A1
+  - idiom: Spanish — A2
 
 education:
   - degree: —
@@ -35,7 +35,7 @@ skills:
     skill:
       - PostgreSQL
       - MySQL
-      - Transactions, indexing, query optimization
+      - Transactions, indexing
   - category: DevOps skills
     skill:
       - Docker
@@ -86,8 +86,6 @@ experience:
     technologies_used: |
       Java, Spring Boot, Kafka, PostgreSQL, Docker, JUnit 5, Testcontainers, Gradle
 
-# Publications
-publications: []
 
 # Projects
 projects:
@@ -103,5 +101,3 @@ projects:
       Distributed event-driven e-commerce backend with microservices for orders, 
       payments, and stock synchronization.
 
-# Volunteering
-volunteering: []
