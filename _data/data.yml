@@ -1,6 +1,6 @@
 name: Andrey Denisov
 support_dark_mode: true
-fork: true
+fork: false
 
 # Sidebar
 contact:
@@ -17,6 +17,37 @@ languages:
   - idiom: English — B2
   - idiom: Spanish — A1
 
+education:
+  - degree: —
+    time: —
+    university: —
+
+skills:
+  - category: Backend skills
+    skill:
+      - Java
+      - Spring Boot (Data, JPA, Security)
+      - REST, OpenAPI/Swagger
+  - category: Messaging skills
+    skill:
+      - Apache Kafka
+  - category: Databases skills
+    skill:
+      - PostgreSQL
+      - MySQL
+      - Transactions, indexing, query optimization
+  - category: DevOps skills
+    skill:
+      - Docker
+      - Docker Compose
+      - CI/CD (GitHub Actions, GitLab CI)
+      - Git, Maven, Gradle
+  - category: Testing skills
+    skill:
+      - JUnit 5
+      - Testcontainers
+      - Mockito
+
 # Profile
 profile: |
   Backend developer with 4.5 years of total experience (2.5 years commercial). 
@@ -24,34 +55,7 @@ profile: |
   Kafka, SQL, and Docker.  
   Experienced in developing production-ready systems with emphasis on performance, 
   reliability, observability, and CI/CD automation.  
-  I practice clean code, code review, and write maintainable, well-tested software.
-
-# Skills
-skills:
-  - category: Backend
-    skill:
-      - Java
-      - Spring Boot (Data, JPA, Security)
-      - REST, OpenAPI/Swagger
-  - category: Messaging
-    skill:
-      - Apache Kafka
-  - category: Databases
-    skill:
-      - PostgreSQL
-      - MySQL
-      - Transactions, indexing
-  - category: DevOps
-    skill:
-      - Docker
-      - Docker Compose
-      - CI/CD (GitHub Actions, GitLab CI)
-      - Git, Maven, Gradle
-  - category: Testing
-    skill:
-      - JUnit 5
-      - Testcontainers
-      - Mockito
+  I practice clean code, perform code reviews, and write maintainable, well-tested software.
 
 # Experience
 experience:
@@ -59,49 +63,45 @@ experience:
     time: Dec 2024 - Jun 2025
     company: Logistics Solutions Inc
     details: |
-      Backend Engineer — Analytics system for supply chain operations (1 year)  
-      • Ingestion and processing of real-time vessel telemetry using Kafka.  
-      • Aggregation and storage in SQL; schema and indexing design for reporting and time-series queries.  
-      • Developed REST APIs for dashboards and reports (operations, dwell times, route deviations).  
-      • Ensured reliability via retries, message deduplication, idempotent handlers.  
-      • Unit and integration testing in Docker environments.
+      Backend Engineer — Analytics system for supply chain operations (1 year).  
+      • Ingested and processed real-time vessel telemetry data using Kafka.  
+      • Designed SQL schemas and indexes for time-series analytics and reporting.  
+      • Developed REST APIs for dashboards (operations, dwell times, delays, route deviations).  
+      • Ensured reliability via retries, deduplication, and idempotent handlers.  
+      • Implemented testing on unit and integration levels in Docker environments.
     technologies_used: |
-      Java, Spring Boot, Kafka, PostgreSQL, Docker, REST, JUnit, Testcontainers
+      Java, Spring Boot, Kafka, PostgreSQL, Docker, REST, JUnit 5, Testcontainers
 
   - role: Java Developer
     time: Feb 2023 - Nov 2024
     company: Goojox
     details: |
-      Backend Engineer — Branded apparel marketplace (1.5 years)  
-      • Designed and developed backend microservices: catalog, cart, orders, payments, inventory.  
-      • Implemented event-driven communication via Kafka (async order processing, notifications, stock sync).  
-      • Built idempotent payment and checkout flows with refund/cancellation handling.  
-      • Data modeling and SQL optimization with indexes and batch operations.  
-      • Set up observability (structured logging, tracing, alerting).  
-      • Integration testing using Testcontainers, code reviews, and API design discussions.
+      Backend Engineer — Branded apparel marketplace (1.5 years).  
+      • Designed and implemented microservices for catalog, cart, orders, payments, and inventory.  
+      • Built asynchronous integrations via Kafka for order processing and stock synchronization.  
+      • Implemented idempotent payment and refund flows with double-charge protection.  
+      • Created optimized SQL queries, batch operations, and indexes for performance.  
+      • Set up observability with structured logging, tracing, and alerts.  
+      • Participated in API contract design and code reviews.
     technologies_used: |
-      Java, Spring Boot, Kafka, PostgreSQL, Docker, JUnit, Testcontainers, Gradle
+      Java, Spring Boot, Kafka, PostgreSQL, Docker, JUnit 5, Testcontainers, Gradle
 
-# Education
-education:
-  - degree: —
-    time: —
-    university: —
+# Publications
+publications: []
 
 # Projects
 projects:
   - title: Telemetry Analytics System
     link:
     details: |
-      Real-time data ingestion and analytics backend for vessel telemetry and logistics operations.
+      Real-time backend for vessel telemetry analytics and logistics optimization, 
+      built with Java, Kafka, and PostgreSQL.
 
   - title: Marketplace Backend Platform
     link:
     details: |
-      Event-driven microservices architecture for e-commerce operations: orders, payments, inventory.
-
-# Publications
-publications: []
+      Distributed event-driven e-commerce backend with microservices for orders, 
+      payments, and stock synchronization.
 
 # Volunteering
 volunteering: []
