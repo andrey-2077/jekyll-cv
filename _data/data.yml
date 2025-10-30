@@ -1,108 +1,107 @@
-name: John Doe
+name: Andrey Denisov
 support_dark_mode: true
 fork: true
 
 # Sidebar
 contact:
-  email: info@johndoe.com
-  github: johndoe
-  linkedin: johndoe
-  phone: 
-  gitlab: 
-  twitter: 
+  email: andreydenisov2077@gmail.com
+  github:
+  linkedin: andrey-denisov-2a9648350
+  phone:
+  gitlab:
+  twitter:
+  location: Buenos Aires
 
 languages:
-  - idiom: English
-  - idiom: Russian
-  - idiom: French
-
-education:
-  - degree: MSc in Informatics
-    time: 2014-2016
-    university: Ionian University
-
-  - degree: BSc in Computer Science
-    time: 2010-2014
-    university: Ionian University
-
-skills:
-  - category: Backend
-    skill: 
-      - Go
-      - Rust
-  - category: Frontend
-    skill:
-      - React
-      - Typescript
-  - category: DevOps
-    skill:
-      - Docker
-      - Kubernetes 
+  - idiom: Russian — Native
+  - idiom: English — B2
+  - idiom: Spanish — A1
 
 # Profile
 profile: |
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-  fugiat nulla pariatur.
+  Backend developer with 4.5 years of total experience (2.5 years commercial). 
+  Focused on building reliable backend systems and integrations using Java, Spring Boot, 
+  Kafka, SQL, and Docker.  
+  Experienced in developing production-ready systems with emphasis on performance, 
+  reliability, observability, and CI/CD automation.  
+  I practice clean code, code review, and write maintainable, well-tested software.
+
+# Skills
+skills:
+  - category: Backend
+    skill:
+      - Java
+      - Spring Boot (Data, JPA, Security)
+      - REST, OpenAPI/Swagger
+  - category: Messaging
+    skill:
+      - Apache Kafka
+  - category: Databases
+    skill:
+      - PostgreSQL
+      - MySQL
+      - Transactions, indexing
+  - category: DevOps
+    skill:
+      - Docker
+      - Docker Compose
+      - CI/CD (GitHub Actions, GitLab CI)
+      - Git, Maven, Gradle
+  - category: Testing
+    skill:
+      - JUnit 5
+      - Testcontainers
+      - Mockito
 
 # Experience
 experience:
-  - role: Software Engineer
-    time: 2020-Present
-    company: Google
+  - role: Java Developer
+    time: Dec 2024 - Jun 2025
+    company: Logistics Solutions Inc
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
-    technologies_used: | 
-      Go, Angular, Typescript, C++
-  
-  - role: Researcher
-    time: 2016-2020
-    company: Microsoft
+      Backend Engineer — Analytics system for supply chain operations (1 year)  
+      • Ingestion and processing of real-time vessel telemetry using Kafka.  
+      • Aggregation and storage in SQL; schema and indexing design for reporting and time-series queries.  
+      • Developed REST APIs for dashboards and reports (operations, dwell times, route deviations).  
+      • Ensured reliability via retries, message deduplication, idempotent handlers.  
+      • Unit and integration testing in Docker environments.
+    technologies_used: |
+      Java, Spring Boot, Kafka, PostgreSQL, Docker, REST, JUnit, Testcontainers
+
+  - role: Java Developer
+    time: Feb 2023 - Nov 2024
+    company: Goojox
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
-    technologies_used: | 
-      Python, Tensorflow, Keras, Matlab
+      Backend Engineer — Branded apparel marketplace (1.5 years)  
+      • Designed and developed backend microservices: catalog, cart, orders, payments, inventory.  
+      • Implemented event-driven communication via Kafka (async order processing, notifications, stock sync).  
+      • Built idempotent payment and checkout flows with refund/cancellation handling.  
+      • Data modeling and SQL optimization with indexes and batch operations.  
+      • Set up observability (structured logging, tracing, alerting).  
+      • Integration testing using Testcontainers, code reviews, and API design discussions.
+    technologies_used: |
+      Java, Spring Boot, Kafka, PostgreSQL, Docker, JUnit, Testcontainers, Gradle
 
-publications:
-  - title: Random title of paper. An interesting one.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference, 2016
+# Education
+education:
+  - degree: —
+    time: —
+    university: —
 
-  - title: Second title of paper. An interesting one too.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference again, 2018
-
+# Projects
 projects:
-  - title: Cool Project 
-    link: #
+  - title: Telemetry Analytics System
+    link:
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua.
+      Real-time data ingestion and analytics backend for vessel telemetry and logistics operations.
 
-  - title: Cool Project 
-    link: #
+  - title: Marketplace Backend Platform
+    link:
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua.
+      Event-driven microservices architecture for e-commerce operations: orders, payments, inventory.
+
+# Publications
+publications: []
 
 # Volunteering
-volunteering:
-  - time: 2020-Present
-    role: PR Manager
-    company: Some random organization
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+volunteering: []

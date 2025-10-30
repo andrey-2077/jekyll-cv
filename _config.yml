@@ -1,6 +1,6 @@
-title: CV | A jekyll template
-description:  A beautiful template for your CV.
-url: https://jekyll-cv.stavrospanakakis.com
+title: Andrey Denisov CV
+description: Backend Developer | Java, Spring, Docker, Kafka
+url: https://github.com/andrey-2077.io/cv
 baseurl: ''
 theme_skin: blue
 
@@ -9,7 +9,7 @@ sass:
   style: compressed
 
 plugins:
-    - jekyll-minifier
+  - jekyll-minifier
 
 exclude:
   - docker-compose.yml
