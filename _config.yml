@@ -1,7 +1,7 @@
 title: Andrey Denisov CV
 description: Backend Developer | Java, Spring, Docker, Kafka
-url: https://github.com/andrey-2077.io/cv
-baseurl: ''
+url: "https://andrey-2077.github.io"
+baseurl: "/jekyll-cv"
 theme_skin: blue
 
 sass:
