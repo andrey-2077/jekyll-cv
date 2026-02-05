@@ -21,46 +21,70 @@ languages:
     level: A2
 
 skills:
-  - category: Backend
+  - category: Languages
     skill:
-      - Java
-      - Spring Boot (Data, JPA, Security)
-      - REST APIs
-      - OpenAPI / Swagger
+      - Java 8/11/17/21
 
-  - category: Messaging
+  - category: Frameworks & Libraries
     skill:
-      - Apache Kafka
+      - Spring Boot
+      - Spring Cloud
+      - Spring Security
+      - Spring Data JPA
+      - WebFlux
+      - Hibernate
+      - REST API
+      - gRPC
 
-  - category: Databases
+  - category: Databases & Messaging
     skill:
       - PostgreSQL
       - MySQL
-      - Transactions
-      - Indexing
-      - Query optimization
+      - MongoDB
+      - Redis
+      - Elasticsearch
+      - Kafka
 
-  - category: DevOps
+  - category: DevOps & Monitoring
     skill:
+      - Kubernetes
+      - Helm
       - Docker
-      - Docker Compose
-      - CI/CD (GitHub Actions, GitLab CI)
-      - Git
-      - Maven
+      - AWS
+      - GitLab CI/CD
+      - GitHub Actions
+      - Prometheus
+      - Grafana
+      - Nginx
       - Gradle
+      - Maven
 
-  - category: Testing
+  - category: Architecture & Domain
+    skill:
+      - Microservices
+      - Event-Driven Architecture
+      - Domain-Driven Design (DDD)
+      - Concurrency
+      - Reactive Programming
+      - Performance Optimization
+
+  - category: Testing & Tools
     skill:
       - JUnit 5
       - Testcontainers
       - Mockito
+      - Keycloak
+      - OAuth2
+      - Swagger / OpenAPI
+      - Liquibase
+      - Flyway
+      - Loki
 
 # Profile
 profile: |
-  Backend developer with 4.5 years of total experience, including 2.5 years of commercial development.
-  Specialized in building reliable backend systems and integrations using Java, Spring Boot, Kafka, SQL, and Docker.
+  Backend developer with 4 years of experience specializing in high-load systems, B2B platforms, real-time analytics and designing microservices architecture focused on fault tolerance and scalability.
   
-  Experienced in developing production-ready systems with a focus on performance, reliability, observability, and CI/CD automation. Comfortable with clean code practices, code reviews, and writing maintainable, well-tested software.
+  Focused on building reliable backend systems and integrations using Java, Spring Boot, Kafka, SQL, and Docker.
 
 # Experience
 experience:
