@@ -13,31 +13,43 @@ contact:
   location: Buenos Aires
 
 languages:
-  - idiom: Russian — Native
-  - idiom: English — B2
-  - idiom: Spanish — A2
+  - idiom: Russian
+    level: Native
+  - idiom: English
+    level: B2
+  - idiom: Spanish
+    level: A2
 
 skills:
-  - category: Backend skills
+  - category: Backend
     skill:
       - Java
       - Spring Boot (Data, JPA, Security)
-      - REST, OpenAPI/Swagger
-  - category: Messaging skills
+      - REST APIs
+      - OpenAPI / Swagger
+
+  - category: Messaging
     skill:
       - Apache Kafka
-  - category: Databases skills
+
+  - category: Databases
     skill:
       - PostgreSQL
       - MySQL
-      - Transactions, indexing
-  - category: DevOps skills
+      - Transactions
+      - Indexing
+      - Query optimization
+
+  - category: DevOps
     skill:
       - Docker
       - Docker Compose
       - CI/CD (GitHub Actions, GitLab CI)
-      - Git, Maven, Gradle
-  - category: Testing skills
+      - Git
+      - Maven
+      - Gradle
+
+  - category: Testing
     skill:
       - JUnit 5
       - Testcontainers
@@ -45,12 +57,12 @@ skills:
 
 # Profile
 profile: |
-  Backend developer with 4.5 years of total experience (2.5 years commercial). 
-  Focused on building reliable backend systems and integrations using Java, Spring Boot, 
-  Kafka, SQL, and Docker.  
-  Experienced in developing production-ready systems with emphasis on performance, 
-  reliability, observability, and CI/CD automation.  
-  I practice clean code, perform code reviews, and write maintainable, well-tested software.
+  Backend developer with 4.5 years of total experience, including 2.5 years of commercial development.
+  Specialized in building reliable backend systems and integrations using Java, Spring Boot, Kafka, SQL, and Docker.
+
+  Experienced in developing production-ready systems with a focus on performance, reliability,
+  observability, and CI/CD automation.
+  Comfortable with clean code practices, code reviews, and writing maintainable, well-tested software.
 
 # Experience
 experience:
@@ -58,12 +70,13 @@ experience:
     time: Dec 2024 - Jun 2025
     company: Logistics Solutions Inc
     details: |
-      Backend Engineer — Analytics system for supply chain operations (1 year).  
-      • Ingested and processed real-time vessel telemetry data using Kafka.  
-      • Designed SQL schemas and indexes for time-series analytics and reporting.  
-      • Developed REST APIs for dashboards (operations, dwell times, delays, route deviations).  
-      • Ensured reliability via retries, deduplication, and idempotent handlers.  
-      • Implemented testing on unit and integration levels in Docker environments.
+      Backend engineer on an analytics system for supply chain operations.
+
+      - Implemented ingestion and processing of real-time vessel telemetry data using Kafka
+      - Designed SQL schemas and indexes for time-series analytics and reporting
+      - Developed REST APIs for operational dashboards (dwell times, delays, route deviations)
+      - Improved system reliability with retries, deduplication, and idempotent processing
+      - Implemented unit and integration tests in Docker-based environments
     technologies_used: |
       Java, Spring Boot, Kafka, PostgreSQL, Docker, REST, JUnit 5, Testcontainers
 
@@ -71,28 +84,27 @@ experience:
     time: Feb 2023 - Nov 2024
     company: Goojox
     details: |
-      Backend Engineer — Branded apparel marketplace (1.5 years).  
-      • Designed and implemented microservices for catalog, cart, orders, payments, and inventory.  
-      • Built asynchronous integrations via Kafka for order processing and stock synchronization.  
-      • Implemented idempotent payment and refund flows with double-charge protection.  
-      • Created optimized SQL queries, batch operations, and indexes for performance.  
-      • Set up observability with structured logging, tracing, and alerts.  
-      • Participated in API contract design and code reviews.
+      Backend engineer for a branded apparel marketplace.
+
+      - Designed and implemented microservices for catalog, cart, orders, payments, and inventory
+      - Built asynchronous integrations with Kafka for order processing and stock synchronization
+      - Implemented idempotent payment and refund flows with protection against double charges
+      - Optimized SQL queries, batch operations, and indexes to improve performance
+      - Set up observability with structured logging, tracing, and alerting
+      - Participated in API contract design and regular code reviews
     technologies_used: |
       Java, Spring Boot, Kafka, PostgreSQL, Docker, JUnit 5, Testcontainers, Gradle
-
 
 # Projects
 projects:
   - title: Telemetry Analytics System
     link:
     details: |
-      Real-time backend for vessel telemetry analytics and logistics optimization, 
+      Real-time backend for vessel telemetry analytics and logistics optimization
       built with Java, Kafka, and PostgreSQL.
 
   - title: Marketplace Backend Platform
     link:
     details: |
-      Distributed event-driven e-commerce backend with microservices for orders, 
-      payments, and stock synchronization.
-
+      Event-driven e-commerce backend with microservices for orders,
+      payments, and inventory synchronization.
