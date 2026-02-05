@@ -1,10 +1,43 @@
 .skills {
-    margin-bottom: 20px;
-    .title {
-        margin-top: 20px;
+    margin-bottom: 25px;
+    
+    .section-title {
         @include sub-header;
+        margin-bottom: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        color: var(--fg-color-title);
     }
-    .skill {
-        @include body-text;
+    
+    .category-title {
+        @include sub-header;
+        margin-top: 18px;
+        margin-bottom: 10px;
+        font-weight: 600;
+        font-size: 0.95em;
+        color: var(--fg-color-title);
+        border-bottom: 1px solid var(--border-color);
+        padding-bottom: 5px;
+    }
+    
+    .skills-list {
+        margin-bottom: 15px;
+        
+        .skill-item {
+            @include body-text;
+            padding: 4px 0;
+            line-height: 1.5;
+            font-size: 0.9em;
+            
+            &:before {
+                content: "•";
+                color: var(--fg-color-title-sm);
+                font-weight: bold;
+                display: inline-block;
+                width: 1em;
+                margin-right: 5px;
+            }
+        }
     }
 }
