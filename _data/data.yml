@@ -58,12 +58,9 @@ skills:
 # Profile
 profile: |
   Backend developer with 4.5 years of total experience, including 2.5 years of commercial development.
-  Specialized in building reliable backend systems and integrations using Java, Spring Boot, Kafka,
-  SQL, and Docker.
-
-  Experienced in developing production-ready systems with a focus on performance, reliability,
-  observability, and CI/CD automation.
-  Comfortable with clean code practices, code reviews, and writing maintainable, well-tested software.
+  Specialized in building reliable backend systems and integrations using Java, Spring Boot, Kafka, SQL, and Docker.
+  
+  Experienced in developing production-ready systems with a focus on performance, reliability, observability, and CI/CD automation. Comfortable with clean code practices, code reviews, and writing maintainable, well-tested software.
 
 # Experience
 experience:
@@ -72,10 +69,8 @@ experience:
     company: Logistics Solutions Inc
     technologies_used: Java 21, Spring Boot 3.x, WebFlux, gRPC, Gradle, PostgreSQL, MongoDB, Kafka, Redis, Kubernetes, Helm, Keycloak, Prometheus, Grafana, Loki, GitLab
     details: |
-      Enterprise platform for maritime fleet monitoring and optimization with predictive analytics.
-      The system processes vessel telemetry data in real time and optimizes fleet operations using
-      a microservices and event-driven architecture.
-
+      Enterprise platform for maritime fleet monitoring and optimization with predictive analytics. The system processes vessel telemetry data in real time and optimizes fleet operations using a microservices and event-driven architecture.
+      
       <strong>Responsibilities:</strong>
       <ul>
       <li>Implemented real-time vessel telemetry ingestion and processing via Kafka, ensuring message ordering and delivery guarantees</li>
@@ -91,10 +86,8 @@ experience:
     company: Goojox
     technologies_used: Java 11, Spring Boot, PostgreSQL, Hibernate, Kafka, OpenSearch, AWS S3, Docker, JUnit 5, Testcontainers, Gradle
     details: |
-      Multi-vendor marketplace platform.
-      Distributed event-driven e-commerce backend with microservices for orders, payments,
-      catalog management, and cross-vendor stock synchronization.
-
+      Multi-vendor marketplace platform. Distributed event-driven e-commerce backend with microservices for orders, payments, catalog management, and cross-vendor stock synchronization.
+      
       <strong>Responsibilities:</strong>
       <ul>
       <li>Designed and implemented microservices for catalog, cart, orders, payments, and inventory management</li>
